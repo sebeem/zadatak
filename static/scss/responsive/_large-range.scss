@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1439px) {
+  .container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .magazine .container {
+    padding: 0 60px;
+  }
+}
+@media only screen and (max-width: 1279px) {
+  .header-info  {
+    .quick-links {
+      margin-right: 80px;
+    }
+    .language-links {
+      padding-top: 16px;
+    }
+  }
+  .main-slider-caption {
+    .lising-action {
+      margin-bottom: 5px;
+    }
+    h1 {
+      font-size: 2.25rem;
+      line-height: normal;
+      margin-bottom: 10px;
+      margin: 0 0 5px -2px;
+    }
+    p {
+      font-size: 0.875rem;
+      line-height: 25px;
+      max-width: 400px;
+    }
+    .action-more-info {
+      margin-top: 20px;
+      a {
+        padding: 14px 25px;
+      }
+      .icon {
+        margin-left: 5px;
+      }
+    }
+  }
+  .down-icon {
+      bottom: 30px;
+  }
+  .finance-lising-desc {
+    .finance-lising-item {
+      .finance-red-border {
+        width: 50%;
+        height: 65%;
+      }
+    }
+  }
+  .finance-lising-content {
+      padding-top: 80px;
+      p {
+        font-size: 1rem;
+      }
+  }
+  .magazine {
+    .container {
+      padding: 0 30px;
+    }
+  }
+  .col-three {
+      margin: 0 3.49% 0 0;
+      &:last-child {
+        margin: 0;
+      }
+  }
+  .magazine-box {
+    .magazine-item {
+      width: 100%;
+    }
+  }
+  footer {
+    .container-fluid {
+      margin: 0 17px;
+    }
+    .col-five {
+      width: 18%;
+      margin-right: 2%;
+    }
+    .col-last {
+      margin: 0;
+    }
+    .footer-copyright {
+        padding: 15px 30px;
+    }
+    .quick-links-f {
+      ul {
+        li {
+          a {
+            letter-spacing: 0.5px;
+          }
+        }
+      }
+    }
+  }
+}

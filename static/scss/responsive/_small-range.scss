@@ -1,0 +1,121 @@
+@media only screen and (max-width: 500px) {
+    body {
+      overflow-x: hidden!important;
+    }
+    .down-icon {
+      a {
+        width: 30px;
+        height: 30px;
+      }
+      .icon {
+        width: 12px;
+        height: 13px;
+        top: 5px;
+      }
+    }
+    .about-info {
+        margin-bottom: 40px;
+    }
+    .about-info {
+      h2 {
+        font-size: 1.5625rem;
+      }
+      p {
+        font-size: 0.875rem;
+        line-height: 22px;
+      }
+    }
+    .about-box {
+      .about-number {
+        font-size: 4.8125rem;
+        line-height: normal;
+      }
+    }
+    .about-more-info, .one-places-more-info, .finance-lising-more-info, .magazine-more-info, .bank-visit-more-info {
+      padding-top: 26px;
+      a {
+        font-size: 0.875rem;
+        .icon {
+          width: 12px;
+          height: 10px;
+        }
+      }
+    }
+    .one-places {
+        margin-bottom: 90px;
+    }
+    .one-places .container {
+        padding: 0;
+    }
+    .one-places-content {
+        margin: 0 30px;
+        padding: 0;
+    }
+    .one-places-info {
+      h2 {
+        font-size: 1.5625rem;
+        text-align: left;
+      }
+      p {
+        font-size: 0.875rem;
+        text-align: left;
+        line-height: 22px;
+      }
+    }
+    .one-places-box {
+      .one-places-name {
+        font-size: 1.375rem;
+        color: #333;
+      }
+    }
+    .finance-lising {
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .finance-lising .container {
+        padding: 0;
+    }
+    .finance-lising-content {
+        padding: 0 30px;
+        margin-bottom: 30px;
+      h1 {
+        font-size: 2.0625rem;
+      }
+      p {
+        font-size: 0.875rem;
+        line-height: 22px;
+      }
+    }
+    .finance-lising-desc {
+      .finance-red-border {
+        width: 92.5%;
+        height: 240px;
+        top: -60px;
+      }
+      .finance-lising-item {
+        margin-right: 30px;
+      }
+    }
+    .finance-lising-desc {
+        p {
+          font-size: 0.875rem;
+          line-height: 22px;
+          padding: 0 30px;
+        }
+    }
+    .finance-lising-more-info {
+        padding: 0 30px;
+    }
+    .slick-dots {
+        bottom: 70px;
+        right: 10px;
+    }
+}
+@media only screen and (max-width: 399px) {
+  .finance-lising-desc {
+    .finance-red-border {
+      width: 92.5%;
+      height: 170px;
+      top: -30px;
+    }
+  }
+}
